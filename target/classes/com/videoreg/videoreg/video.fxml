@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.videoreg.videoreg.VideoController"
+      alignment="CENTER" spacing="10"
+      stylesheets="@styles.css">
+
+    <StackPane prefWidth="800" prefHeight="600">
+        <ImageView fx:id="cameraView" preserveRatio="true"/>
+    </StackPane>
+
+    <HBox spacing="10" alignment="CENTER">
+        <Label text="Размер предпросмотра:"/>
+        <Slider fx:id="sizeSlider" min="320" max="1280" value="640" prefWidth="300"/>
+    </HBox>
+
+    <HBox spacing="10" alignment="CENTER">
+        <Button text="Начать запись" onAction="#onStartRecording"/>
+        <Button text="Остановить запись" onAction="#onStopRecording"/>
+    </HBox>
+
+
+    <HBox spacing="5" alignment="CENTER">
+        <Circle fx:id="recordIndicator" radius="6" fill="gray"/>
+        <Label fx:id="statusLabel" text="Не записывает"/>
+    </HBox>
+</VBox>
