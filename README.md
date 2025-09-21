@@ -9,11 +9,10 @@
 <hr>
 
 <div align="center" style="line-height: 1;">
-[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
-[![JavaFX](https://img.shields.io/badge/JavaFX-0078D7?style=for-the-badge&logo=java&logoColor=white)](https://openjfx.io/)
-[![GitHub](https://img.shields.io/badge/GitHub-24292F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NOreVerseSHELL)
-[![Telegram](https://img.shields.io/badge/Telegram-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/NOreVerseSHELL)
-</div>
+| Java | JavaFX | GitHub | Telegram |
+|------|--------|--------|---------|
+| [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/) | [![JavaFX](https://img.shields.io/badge/JavaFX-0078D7?style=for-the-badge&logo=java&logoColor=white)](https://openjfx.io/) | [![GitHub](https://img.shields.io/badge/GitHub-24292F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NOreVerseSHELL) | [![Telegram](https://img.shields.io/badge/Telegram-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/NOreVerseSHELL) |
+
 
 <p align="center">
   <img width="80%" src="./assets/demo.png">
