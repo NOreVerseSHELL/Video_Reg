@@ -24,7 +24,7 @@
 </p>
 
 <p align="center">
-  <img width="80%" src="./assets/demo.png" alt="Demo">
+  <img width="80%" src="../assets/demo.png" alt="Demo">
 </p>
 
 # Описание
